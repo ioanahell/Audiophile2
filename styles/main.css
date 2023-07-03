@@ -1,0 +1,87 @@
+/* @import "colors";
+@import "typography";
+@import "base"; */
+
+.hero {
+    background-image: url("../images/image-hero.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.visual {
+    background-color: #D87D4A;
+    width: 160px;
+    height: 48px;
+    flex-shrink: 0;
+    text-transform: uppercase;
+}
+
+.title {
+    width: 398px;
+    height: 346px;
+    position: absolute;
+    left: 165px;
+    top: 225px;
+    color: #FFFFFF;
+}
+
+h2 {
+    color: #FFF;
+    font-size: 14px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+h1 {
+    color: #FFF;
+    font-size: 56px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+p {
+    color: #FFF;
+    font-size: 15px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.lista {
+display: flex;
+list-style-type: none;
+margin: 0;
+padding: 0;
+text-decoration: none;
+margin-right: 10px;
+color: #FFF;
+font-size: 13px;
+font-family: Manrope;
+font-style: normal;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+.cos{
+    position:absolute;
+    top: 32px;
+    right:165.17px;
+    background: none;
+    border: none;
+}
+.box{
+    width: 350px;
+height: 284px;
+flex-shrink: 0;
+  }
