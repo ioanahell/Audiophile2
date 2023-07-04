@@ -125,19 +125,20 @@ li {
     height: 284px;
     flex-shrink: 0;
     display: flex;
-    flex-direction: row;
+
 }
 
 .smallbox {
+    position:absolute;
     display: flex;
     width: 350px;
     height: 204px;
     flex-shrink: 0;
     color: grey;
-    flex-direction: row;
 }
 
 .shop {
+    position:absolute;
     color: #000;
     font-size: 13px;
     font-family: Manrope;
@@ -150,12 +151,11 @@ li {
     width: 55px;
     height: 18px;
     display: flex;
-    flex-direction: row;
-    margin-top:156px;
-    margin-bottom:30px;
-    margin-left:146px;
-    margin-right:165px;
-    
+    margin-top: 156px;
+    margin-bottom: 30px;
+    margin-left: 146px;
+    margin-right: 165px;
+
 }
 
 /* .box {
@@ -180,6 +180,7 @@ li {
 }
 
 .headphones {
+    position:absolute;
     width: 122.947px;
     height: 160px;
     flex-shrink: 0;
@@ -190,6 +191,7 @@ li {
 }
 
 .speakers {
+    position:absolute;
     width: 121.489px;
     height: 146px;
     flex-shrink: 0;
@@ -200,6 +202,7 @@ li {
 }
 
 .earphones {
+    position:absolute;
     width: 178px;
     height: 161px;
     flex-shrink: 0;
@@ -208,7 +211,10 @@ li {
     margin-bottom: 128px;
     margin-right: 84px;
 }
-.box1{color: #000;
+
+.box1 {
+    position:absolute;
+    color: #000;
     text-align: center;
     font-size: 18px;
     font-family: Manrope;
@@ -217,8 +223,73 @@ li {
     line-height: normal;
     letter-spacing: 1.286px;
     text-transform: uppercase;
-display:flex;
-margin-left: 108.5px;
-margin-right:108.5px;
-margin-top:116px;
-margin-bottom:63px;}
+    display: flex;
+    margin-left: 108.5px;
+    margin-right: 108.5px;
+    margin-top: 116px;
+    margin-bottom: 63px;
+}
+.orange{
+    border-radius: 8px;
+    background: #D87D4A;
+    width: 1110px;
+height: 560px;
+flex-shrink: 0;
+}
+.ZX9{
+    position:absolute;
+    width: 410.234px;
+    height: 493px;
+    flex-shrink: 0;
+margin-top:97px;
+margin-left:117.49px;
+margin-right:582.28px;}
+.orangeh1{color: #FFF;
+    position:absolute;
+    font-size: 56px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+margin-top:133px;
+margin-bottom:311px;
+margin-left:666px;
+margin-right:183px;}
+.orangep{
+    position:absolute;
+width: 349px;
+flex-direction: column;
+flex-shrink: 0;
+color: #FFF;
+font-size: 15px;
+font-family: Manrope;
+font-style: normal;
+font-weight: 500;
+line-height: 25px;
+opacity:0.5px;
+margin-left:666px;
+margin-right:95px;
+margin-bottom:212px;
+margin-top:273px;
+}
+.orangebutton{
+    position:absolute;
+    width: 160px;
+height: 48px;
+flex-shrink: 0;
+background: #000;
+color: #FFF;
+font-size: 13px;
+font-family: Manrope;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1px;
+text-transform: uppercase;
+margin-top:388px;
+margin-bottom:124px;
+margin-left:666px;
+margin-right:284px;
+}
