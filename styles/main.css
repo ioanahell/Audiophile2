@@ -7,6 +7,13 @@
     background-position: center;
     background-size: cover;
     height: 100vh;
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    margin-top: 35px;
+    margin-left: 165px;
 }
 
 .visual {
@@ -73,11 +80,12 @@ ul {
     letter-spacing: 2px;
     text-transform: uppercase;
     position: center;
-    top: 35px;
+
 }
 
-li {
-    padding: 34px;
+.lista {
+    text-decoration: none;
+    display: flex;
     color: #FFF;
     font-size: 13px;
     font-family: Manrope;
@@ -86,7 +94,22 @@ li {
     line-height: 25px;
     letter-spacing: 2px;
     text-transform: uppercase;
+
+}
+
+li {
+    margin-bottom: 34px;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
     text-decoration: none;
+    margin-left: 505px;
+
 }
 
 .cos {
@@ -128,9 +151,14 @@ li {
     height: 18px;
     display: flex;
     flex-direction: row;
+    margin-top:156px;
+    margin-bottom:30px;
+    margin-left:146px;
+    margin-right:165px;
+    
 }
 
-.box {
+/* .box {
     color: #000;
     text-align: center;
     font-size: 18px;
@@ -140,4 +168,57 @@ li {
     line-height: normal;
     letter-spacing: 1.286px;
     text-transform: uppercase;
+    display: flex;
+} */
+
+.category {
+    display: flex;
 }
+
+.container {
+    display: flex;
+}
+
+.headphones {
+    width: 122.947px;
+    height: 160px;
+    flex-shrink: 0;
+    margin-left: 113.68px;
+    margin-top: 48px;
+    margin-bottom: 124px;
+    margin-right: 113.34px;
+}
+
+.speakers {
+    width: 121.489px;
+    height: 146px;
+    flex-shrink: 0;
+    margin-left: 113.52px;
+    margin-top: 48px;
+    margin-bottom: 130.5px;
+    margin-right: 114.99;
+}
+
+.earphones {
+    width: 178px;
+    height: 161px;
+    flex-shrink: 0;
+    margin-top: 48px;
+    margin-left: 88px;
+    margin-bottom: 128px;
+    margin-right: 84px;
+}
+.box1{color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.286px;
+    text-transform: uppercase;
+display:flex;
+margin-left: 108.5px;
+margin-right:108.5px;
+margin-top:116px;
+margin-bottom:63px;}
