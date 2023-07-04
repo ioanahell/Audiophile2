@@ -10,6 +10,7 @@
     display: flex;
 }
 
+
 .logo {
     display: flex;
     margin-top: 35px;
@@ -354,8 +355,9 @@ li {
 } */
 /* .ZX7h1+.ZX7b{margin-top:32px;} */
 
-.yx1ear{position:relative;
-display:flex;
+.yx1ear {
+    position: relative;
+    display: flex;
 }
 
 .imgyx1 {
@@ -394,7 +396,7 @@ display:flex;
     margin-bottom: 181px;
     margin-left: 95px;
     margin-right: 200px;
-    position:absolute;
+    position: absolute;
 }
 
 .yx1b {
@@ -413,5 +415,117 @@ display:flex;
     margin-bottom: 101px;
     margin-left: 96.5px;
     margin-right: 283.5px;
-    position:absolute;
+    position: absolute;
+}
+
+.divbest {
+    position: absolute;
+}
+
+.best {
+    display: flex;
+    width: 445px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 40px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 1.429px;
+    text-transform: uppercase;
+
+}
+
+.bestp {
+    display: flex;
+    width: 445px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 15px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    opacity: 0.5;
+}
+
+.bestorange {
+    color: #D87D4A;
+}
+
+.bestimg {
+    margin-left: 570px;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #000;
+}
+
+.logofooter {
+    width: 143px;
+    height: 25px;
+    flex-shrink: 0;
+    color: #FFFFFF;
+    margin-top: 65px;
+    margin-left: 175px;
+}
+
+.footerp {
+    display: flex;
+    width: 540px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 15px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    opacity: 0.5;
+    margin-top: 36px;
+    margin-left: 165px;
+}
+
+.copywrite {
+    display: flex;
+    width: 540px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 15px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    opacity: 0.5;
+    margin-bottom: 48px;
+    margin-left: 165px;
+}
+
+.listfoot {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.footlist {
+    color: #FFFFFF;
+    font-size: 13px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
 }
