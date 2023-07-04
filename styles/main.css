@@ -301,14 +301,19 @@ li {
     margin-left: 666px;
     margin-right: 284px;
 }
-.ZX7{position:relative;}
+
+.ZX7 {
+    position: relative;
+}
+
 .imgZX7 {
-border-radius: 8px;
+    border-radius: 8px;
     margin-top: 48px;
     width: 1110px;
     height: 300px;
     flex-shrink: 0;
-position:absolute;}
+    position: absolute;
+}
 
 .ZX7h1 {
     color: #000;
@@ -321,14 +326,14 @@ position:absolute;}
     text-transform: uppercase;
     margin-top: 149px;
     margin-bottom: 181px;
-position:absolute;
+    position: absolute;
     margin-left: 100px;
 }
 
 .ZX7b {
     margin-left: 100px;
     margin-bottom: 113px;
-position:absolute;
+    position: absolute;
     margin-top: 15%;
     width: 160px;
     height: 48px;
@@ -348,3 +353,65 @@ position:absolute;
     margin-top: 820px;
 } */
 /* .ZX7h1+.ZX7b{margin-top:32px;} */
+
+.yx1ear{position:relative;
+display:flex;
+}
+
+.imgyx1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 398px;
+    float: left;
+    margin-bottom: 48px;
+    border-radius: 8px;
+}
+
+.boxYX1 {
+    width: 540px;
+    height: 320px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: lightgrey;
+    margin-top: 396px;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 48px;
+    align-items: center;
+}
+
+.yx1h1 {
+    align-items: center;
+    color: #000;
+    font-size: 28px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 101px;
+    margin-bottom: 181px;
+    margin-left: 95px;
+    margin-right: 200px;
+    position:absolute;
+}
+
+.yx1b {
+    align-items: center;
+    width: 160px;
+    height: 48px;
+    color: #000;
+    font-size: 13px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 171px;
+    margin-bottom: 101px;
+    margin-left: 96.5px;
+    margin-right: 283.5px;
+    position:absolute;
+}
